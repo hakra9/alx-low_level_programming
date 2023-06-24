@@ -1,8 +1,18 @@
-#include "main.h
-int _isupper(int d)
+#include "main.h"
+
+/**
+ * _isupper - uppercase letters
+ * @s: char to check
+ *
+ * Return: 0 or 1
+ */
+
+int _isupper(int s)
 {
-	if (d >= 'A' && c <= 'Z')
+	if (s >= 'A' && s <= 'Z')
 		return (1);
 	else
 		return (0);
 }
+
+
