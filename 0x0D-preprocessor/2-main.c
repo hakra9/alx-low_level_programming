@@ -1,5 +1,5 @@
 #include <stdio.h>
 int fct (void)
-{printf ("%s", __file__);
+{printf ("%s \n", __file__);
 	return (0)
 }
