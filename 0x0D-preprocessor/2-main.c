@@ -1,9 +1,13 @@
 #include <stdio.h>
+
 /**
- * main - print the name of the file 
- * returne always 0(succes)
+ * main - prints the name of the file
+ *
+ * Return: Always 0 (Success)
  */
-int fct (void)
-{printf ("%s \n", __file__);
+int fct(void)
+{
+	printf("%s\n", __FILE__);
 	return (0);
 }
+
